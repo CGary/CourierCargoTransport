@@ -1,0 +1,17 @@
+{
+  "name": "transport-solid",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.17"
+  },
+  "devDependencies": {
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
